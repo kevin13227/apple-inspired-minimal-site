@@ -18,6 +18,28 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				system: [
+					'-apple-system', 
+					'BlinkMacSystemFont', 
+					'"Segoe UI"', 
+					'Roboto', 
+					'"Helvetica Neue"', 
+					'Arial', 
+					'sans-serif',
+					'"Apple Color Emoji"',
+					'"Segoe UI Emoji"',
+					'"Segoe UI Symbol"'
+				],
+			},
+			spacing: {
+				'nav': 'var(--nav-height)',
+				'hero': 'var(--hero-spacing)',
+				'section': 'var(--section-padding)',
+			},
+			transitionTimingFunction: {
+				'apple': 'cubic-bezier(0.4, 0, 0.2, 1)',
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
