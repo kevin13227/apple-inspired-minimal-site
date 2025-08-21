@@ -267,11 +267,7 @@ const TodoList = () => {
                 <Circle className="h-8 w-8 text-muted-foreground" />
               </div>
               <h3 className="text-lg font-medium text-foreground mb-2">No tasks yet</h3>
-              <p className="text-muted-foreground mb-4">Get started by creating your first task to stay organized</p>
-              <Button onClick={() => setShowForm(true)} className="bg-primary hover:bg-primary/90">
-                <Plus className="h-4 w-4 mr-2" />
-                Create Your First Task
-              </Button>
+              <p className="text-muted-foreground">Get started by creating your first task using the "Add Task" button above</p>
             </CardContent>
           </Card>
         ) : (
